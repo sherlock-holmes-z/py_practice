@@ -15,6 +15,12 @@ print(s)
 s = set({"name": 1, "age": 2})  # dict字典转set只留k
 print(s)
 
+# set中存放的字典必须是不可变的，dict是可变类型
+# s = {
+#     {"name": 1, "age": 2}, {"name": 2, "age": 3}
+# }
+# print(s)
+
 print(1 in s)
 print(len(s), min(s), max(s))
 

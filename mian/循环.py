@@ -22,3 +22,12 @@ print("*" * 10)
 if num > 0:
     pass # 什么都不执行
 
+print("*" * 10)
+# for...else 循环没有被break时执行else，有break则不执行else
+for i in range(5):
+    print(i)
+    if i == 3:
+        break
+else:
+    print(1)
+
