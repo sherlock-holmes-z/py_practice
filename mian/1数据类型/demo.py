@@ -28,3 +28,6 @@ b = input("please enter:")
 b = int(b)
 print(type(b))
 print("%d" % (b))
+
+i = "a"
+print(i.isdigit())
